@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/cell
+  jpa:
+    database: mysql
+    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#      naming:
+#        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+#    properties:
+#      hibernate:
+#        dialect : org.hibernate.dialect.MySQL5Dialect
+server:
+    context-path: /cell
+    port: 9396
+
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+##  path: F:/learnProjects/study/cell/logger/
+#  file: F:/learnProjects/study/cell/logger/cell.log
+#  level:
+#    com.lj.LoggerTest: debug
+
+

@@ -1,0 +1,1332 @@
+2017-09-17 00:06:29,874 - Starting ProductCategoryDaoTest on DESKTOP-RKS0M63 with PID 1904 (started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 00:06:29,882 - No active profile set, falling back to default profiles: default
+2017-09-17 00:06:29,976 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Sun Sep 17 00:06:29 CST 2017]; root of context hierarchy
+2017-09-17 00:06:30,814 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 00:06:33,244 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 00:06:33,263 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 00:06:33,354 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 00:06:33,357 - HHH000206: hibernate.properties not found
+2017-09-17 00:06:33,359 - HHH000021: Bytecode provider name : javassist
+2017-09-17 00:06:33,414 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 00:06:33,559 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 00:06:34,487 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 00:06:35,752 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Sun Sep 17 00:06:29 CST 2017]; root of context hierarchy
+2017-09-17 00:06:35,870 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 00:06:35,872 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 00:06:35,927 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 00:06:35,927 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 00:06:35,988 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 00:06:36,421 - Started ProductCategoryDaoTest in 7.789 seconds (JVM running for 9.354)
+2017-09-17 00:06:36,608 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Sun Sep 17 00:06:29 CST 2017]; root of context hierarchy
+2017-09-17 00:06:36,613 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 00:10:03,892 - Starting ProductCategoryDaoTest on DESKTOP-RKS0M63 with PID 12360 (started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 00:10:03,896 - No active profile set, falling back to default profiles: default
+2017-09-17 00:10:04,105 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@70ed52de: startup date [Sun Sep 17 00:10:04 CST 2017]; root of context hierarchy
+2017-09-17 00:10:04,944 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 00:10:07,790 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 00:10:07,810 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 00:10:07,906 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 00:10:07,908 - HHH000206: hibernate.properties not found
+2017-09-17 00:10:07,909 - HHH000021: Bytecode provider name : javassist
+2017-09-17 00:10:07,978 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 00:10:08,135 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 00:10:09,132 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 00:10:10,399 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@70ed52de: startup date [Sun Sep 17 00:10:04 CST 2017]; root of context hierarchy
+2017-09-17 00:10:10,530 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 00:10:10,531 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 00:10:10,587 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 00:10:10,587 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 00:10:10,659 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 00:10:11,259 - Started ProductCategoryDaoTest in 8.987 seconds (JVM running for 10.584)
+2017-09-17 00:10:11,502 - SQL Error: 1364, SQLState: HY000
+2017-09-17 00:10:11,503 - Field 'product_id' doesn't have a default value
+2017-09-17 00:10:11,543 - Closing org.springframework.web.context.support.GenericWebApplicationContext@70ed52de: startup date [Sun Sep 17 00:10:04 CST 2017]; root of context hierarchy
+2017-09-17 00:10:11,550 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 00:14:03,683 - Starting ProductCategoryDaoTest on DESKTOP-RKS0M63 with PID 12784 (started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 00:14:03,685 - No active profile set, falling back to default profiles: default
+2017-09-17 00:14:03,770 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Sun Sep 17 00:14:03 CST 2017]; root of context hierarchy
+2017-09-17 00:14:04,587 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 00:14:07,091 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 00:14:07,123 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 00:14:07,254 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 00:14:07,256 - HHH000206: hibernate.properties not found
+2017-09-17 00:14:07,259 - HHH000021: Bytecode provider name : javassist
+2017-09-17 00:14:07,332 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 00:14:07,512 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 00:14:08,672 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 00:14:09,931 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Sun Sep 17 00:14:03 CST 2017]; root of context hierarchy
+2017-09-17 00:14:10,055 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 00:14:10,056 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 00:14:10,106 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 00:14:10,107 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 00:14:10,186 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 00:14:10,611 - Started ProductCategoryDaoTest in 8.217 seconds (JVM running for 9.676)
+2017-09-17 00:14:10,910 - Closing org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Sun Sep 17 00:14:03 CST 2017]; root of context hierarchy
+2017-09-17 00:14:10,915 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 00:23:59,129 - Starting ProductCategoryDaoTest on DESKTOP-RKS0M63 with PID 9568 (started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 00:23:59,130 - No active profile set, falling back to default profiles: default
+2017-09-17 00:23:59,225 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@496bc455: startup date [Sun Sep 17 00:23:59 CST 2017]; root of context hierarchy
+2017-09-17 00:24:00,166 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 00:24:02,599 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 00:24:02,624 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 00:24:02,725 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 00:24:02,726 - HHH000206: hibernate.properties not found
+2017-09-17 00:24:02,728 - HHH000021: Bytecode provider name : javassist
+2017-09-17 00:24:02,788 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 00:24:02,943 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 00:24:03,959 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 00:24:05,246 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@496bc455: startup date [Sun Sep 17 00:23:59 CST 2017]; root of context hierarchy
+2017-09-17 00:24:05,387 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 00:24:05,388 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 00:24:05,441 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 00:24:05,441 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 00:24:05,510 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 00:24:05,938 - Started ProductCategoryDaoTest in 8.139 seconds (JVM running for 9.569)
+2017-09-17 00:24:06,250 - Closing org.springframework.web.context.support.GenericWebApplicationContext@496bc455: startup date [Sun Sep 17 00:23:59 CST 2017]; root of context hierarchy
+2017-09-17 00:24:06,255 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 11:24:42,696 - Starting ProductCategoryDaoTest on DESKTOP-RKS0M63 with PID 5960 (started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 11:24:42,698 - No active profile set, falling back to default profiles: default
+2017-09-17 11:24:42,864 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@59402b8f: startup date [Sun Sep 17 11:24:42 CST 2017]; root of context hierarchy
+2017-09-17 11:24:44,143 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 11:24:47,542 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 11:24:47,584 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 11:24:47,771 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 11:24:47,773 - HHH000206: hibernate.properties not found
+2017-09-17 11:24:47,776 - HHH000021: Bytecode provider name : javassist
+2017-09-17 11:24:47,912 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 11:24:48,330 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 11:24:49,671 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 11:24:51,189 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@59402b8f: startup date [Sun Sep 17 11:24:42 CST 2017]; root of context hierarchy
+2017-09-17 11:24:51,348 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 11:24:51,350 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 11:24:51,424 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 11:24:51,425 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 11:24:51,511 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 11:24:51,980 - Started ProductCategoryDaoTest in 10.794 seconds (JVM running for 14.236)
+2017-09-17 11:24:52,392 - Closing org.springframework.web.context.support.GenericWebApplicationContext@59402b8f: startup date [Sun Sep 17 11:24:42 CST 2017]; root of context hierarchy
+2017-09-17 11:24:52,396 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 11:45:15,320 - Starting ProductCategoryDaoTest on DESKTOP-RKS0M63 with PID 5308 (started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 11:45:15,323 - No active profile set, falling back to default profiles: default
+2017-09-17 11:45:15,482 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Sun Sep 17 11:45:15 CST 2017]; root of context hierarchy
+2017-09-17 11:45:16,377 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 11:45:19,902 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 11:45:19,958 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 11:45:20,163 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 11:45:20,167 - HHH000206: hibernate.properties not found
+2017-09-17 11:45:20,170 - HHH000021: Bytecode provider name : javassist
+2017-09-17 11:45:20,232 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 11:45:20,393 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 11:45:21,575 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 11:45:23,046 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Sun Sep 17 11:45:15 CST 2017]; root of context hierarchy
+2017-09-17 11:45:23,182 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 11:45:23,185 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 11:45:23,243 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 11:45:23,244 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 11:45:23,337 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 11:45:23,846 - Started ProductCategoryDaoTest in 9.944 seconds (JVM running for 12.312)
+2017-09-17 11:45:24,122 - SQL Error: 1062, SQLState: 23000
+2017-09-17 11:45:24,123 - Duplicate entry '3' for key 'uqe_category_type'
+2017-09-17 11:45:24,227 - Closing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Sun Sep 17 11:45:15 CST 2017]; root of context hierarchy
+2017-09-17 11:45:24,232 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 11:46:12,035 - Starting ProductCategoryDaoTest on DESKTOP-RKS0M63 with PID 2120 (started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 11:46:12,036 - No active profile set, falling back to default profiles: default
+2017-09-17 11:46:12,178 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@514646ef: startup date [Sun Sep 17 11:46:12 CST 2017]; root of context hierarchy
+2017-09-17 11:46:13,262 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 11:46:16,835 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 11:46:16,874 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 11:46:17,071 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 11:46:17,075 - HHH000206: hibernate.properties not found
+2017-09-17 11:46:17,078 - HHH000021: Bytecode provider name : javassist
+2017-09-17 11:46:17,227 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 11:46:17,516 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 11:46:18,733 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 11:46:20,586 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@514646ef: startup date [Sun Sep 17 11:46:12 CST 2017]; root of context hierarchy
+2017-09-17 11:46:20,758 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 11:46:20,760 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 11:46:20,822 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 11:46:20,823 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 11:46:20,903 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 11:46:21,424 - Started ProductCategoryDaoTest in 10.644 seconds (JVM running for 12.3)
+2017-09-17 11:46:21,755 - Closing org.springframework.web.context.support.GenericWebApplicationContext@514646ef: startup date [Sun Sep 17 11:46:12 CST 2017]; root of context hierarchy
+2017-09-17 11:46:21,762 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 11:48:37,938 - Starting ProductCategoryDaoTest on DESKTOP-RKS0M63 with PID 1640 (started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 11:48:37,939 - No active profile set, falling back to default profiles: default
+2017-09-17 11:48:38,022 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@17fc391b: startup date [Sun Sep 17 11:48:38 CST 2017]; root of context hierarchy
+2017-09-17 11:48:39,107 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 11:48:42,552 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 11:48:42,602 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 11:48:42,807 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 11:48:42,813 - HHH000206: hibernate.properties not found
+2017-09-17 11:48:42,821 - HHH000021: Bytecode provider name : javassist
+2017-09-17 11:48:42,955 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 11:48:43,231 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 11:48:44,558 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 11:48:46,294 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@17fc391b: startup date [Sun Sep 17 11:48:38 CST 2017]; root of context hierarchy
+2017-09-17 11:48:46,494 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 11:48:46,496 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 11:48:46,645 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 11:48:46,646 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 11:48:46,746 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 11:48:47,482 - Started ProductCategoryDaoTest in 10.905 seconds (JVM running for 13.067)
+2017-09-17 11:48:47,599 - Began transaction (1) for test context [DefaultTestContext@1dd02175 testClass = ProductCategoryDaoTest, testInstance = com.lj.dao.ProductCategoryDaoTest@29bbc391, testMethod = saveTest2@ProductCategoryDaoTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@31206beb testClass = ProductCategoryDaoTest, locations = '{}', classes = '{class com.lj.CellApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@5702b3b1, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3159c4b8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@29ca901e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@13a5fe33], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@4c18516]; rollback [true]
+2017-09-17 11:48:47,868 - SQL Error: 1062, SQLState: 23000
+2017-09-17 11:48:47,869 - Duplicate entry '2' for key 'uqe_category_type'
+2017-09-17 11:48:47,938 - Rolled back transaction for test context [DefaultTestContext@1dd02175 testClass = ProductCategoryDaoTest, testInstance = com.lj.dao.ProductCategoryDaoTest@29bbc391, testMethod = saveTest2@ProductCategoryDaoTest, testException = org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [uqe_category_type]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement, mergedContextConfiguration = [WebMergedContextConfiguration@31206beb testClass = ProductCategoryDaoTest, locations = '{}', classes = '{class com.lj.CellApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@5702b3b1, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3159c4b8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@29ca901e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@13a5fe33], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]].
+2017-09-17 11:48:48,003 - Closing org.springframework.web.context.support.GenericWebApplicationContext@17fc391b: startup date [Sun Sep 17 11:48:38 CST 2017]; root of context hierarchy
+2017-09-17 11:48:48,011 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 11:50:03,259 - Starting ProductCategoryDaoTest on DESKTOP-RKS0M63 with PID 4048 (started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 11:50:03,261 - No active profile set, falling back to default profiles: default
+2017-09-17 11:50:03,375 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@35841320: startup date [Sun Sep 17 11:50:03 CST 2017]; root of context hierarchy
+2017-09-17 11:50:04,413 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 11:50:06,721 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 11:50:06,744 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 11:50:06,841 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 11:50:06,843 - HHH000206: hibernate.properties not found
+2017-09-17 11:50:06,845 - HHH000021: Bytecode provider name : javassist
+2017-09-17 11:50:06,921 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 11:50:07,089 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 11:50:07,970 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 11:50:09,169 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@35841320: startup date [Sun Sep 17 11:50:03 CST 2017]; root of context hierarchy
+2017-09-17 11:50:09,299 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 11:50:09,301 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 11:50:09,345 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 11:50:09,346 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 11:50:09,428 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 11:50:10,186 - Started ProductCategoryDaoTest in 8.395 seconds (JVM running for 9.844)
+2017-09-17 11:50:10,323 - Began transaction (1) for test context [DefaultTestContext@6a396c1e testClass = ProductCategoryDaoTest, testInstance = com.lj.dao.ProductCategoryDaoTest@4f664bee, testMethod = saveTest2@ProductCategoryDaoTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6c3f5566 testClass = ProductCategoryDaoTest, locations = '{}', classes = '{class com.lj.CellApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@3f49dace, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@56ac3a89, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6e06451e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@52a86356], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@22f02996]; rollback [true]
+2017-09-17 11:50:10,481 - SQL Error: 1062, SQLState: 23000
+2017-09-17 11:50:10,482 - Duplicate entry '3' for key 'uqe_category_type'
+2017-09-17 11:50:10,556 - Rolled back transaction for test context [DefaultTestContext@6a396c1e testClass = ProductCategoryDaoTest, testInstance = com.lj.dao.ProductCategoryDaoTest@4f664bee, testMethod = saveTest2@ProductCategoryDaoTest, testException = org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [uqe_category_type]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement, mergedContextConfiguration = [WebMergedContextConfiguration@6c3f5566 testClass = ProductCategoryDaoTest, locations = '{}', classes = '{class com.lj.CellApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@3f49dace, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@56ac3a89, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6e06451e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@52a86356], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]].
+2017-09-17 11:50:10,575 - Closing org.springframework.web.context.support.GenericWebApplicationContext@35841320: startup date [Sun Sep 17 11:50:03 CST 2017]; root of context hierarchy
+2017-09-17 11:50:10,582 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 11:50:32,333 - Starting ProductCategoryDaoTest on DESKTOP-RKS0M63 with PID 7444 (started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 11:50:32,357 - No active profile set, falling back to default profiles: default
+2017-09-17 11:50:32,437 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@35841320: startup date [Sun Sep 17 11:50:32 CST 2017]; root of context hierarchy
+2017-09-17 11:50:33,663 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 11:50:36,125 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 11:50:36,162 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 11:50:36,332 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 11:50:36,334 - HHH000206: hibernate.properties not found
+2017-09-17 11:50:36,336 - HHH000021: Bytecode provider name : javassist
+2017-09-17 11:50:36,506 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 11:50:36,685 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 11:50:37,582 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 11:50:38,804 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@35841320: startup date [Sun Sep 17 11:50:32 CST 2017]; root of context hierarchy
+2017-09-17 11:50:38,932 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 11:50:38,934 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 11:50:39,001 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 11:50:39,001 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 11:50:39,162 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 11:50:39,902 - Started ProductCategoryDaoTest in 9.123 seconds (JVM running for 10.595)
+2017-09-17 11:50:39,994 - Began transaction (1) for test context [DefaultTestContext@6a396c1e testClass = ProductCategoryDaoTest, testInstance = com.lj.dao.ProductCategoryDaoTest@32ae8f27, testMethod = saveTest2@ProductCategoryDaoTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6c3f5566 testClass = ProductCategoryDaoTest, locations = '{}', classes = '{class com.lj.CellApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@3f49dace, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@56ac3a89, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6e06451e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@52a86356], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@543fe698]; rollback [true]
+2017-09-17 11:50:40,296 - Rolled back transaction for test context [DefaultTestContext@6a396c1e testClass = ProductCategoryDaoTest, testInstance = com.lj.dao.ProductCategoryDaoTest@32ae8f27, testMethod = saveTest2@ProductCategoryDaoTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6c3f5566 testClass = ProductCategoryDaoTest, locations = '{}', classes = '{class com.lj.CellApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@3f49dace, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@56ac3a89, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6e06451e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@52a86356], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]].
+2017-09-17 11:50:40,302 - Closing org.springframework.web.context.support.GenericWebApplicationContext@35841320: startup date [Sun Sep 17 11:50:32 CST 2017]; root of context hierarchy
+2017-09-17 11:50:40,309 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 12:00:18,126 - Starting ProductCategoryDaoTest on DESKTOP-RKS0M63 with PID 13032 (started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 12:00:18,127 - No active profile set, falling back to default profiles: default
+2017-09-17 12:00:18,240 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@56276db8: startup date [Sun Sep 17 12:00:18 CST 2017]; root of context hierarchy
+2017-09-17 12:00:19,434 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 12:00:22,360 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 12:00:22,400 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 12:00:22,567 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 12:00:22,572 - HHH000206: hibernate.properties not found
+2017-09-17 12:00:22,577 - HHH000021: Bytecode provider name : javassist
+2017-09-17 12:00:22,666 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 12:00:22,884 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 12:00:24,298 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 12:00:26,577 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@56276db8: startup date [Sun Sep 17 12:00:18 CST 2017]; root of context hierarchy
+2017-09-17 12:00:26,731 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 12:00:26,733 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 12:00:26,811 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 12:00:26,811 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 12:00:26,903 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 12:00:27,677 - Started ProductCategoryDaoTest in 10.453 seconds (JVM running for 13.686)
+2017-09-17 12:00:27,903 - HHH000397: Using ASTQueryTranslatorFactory
+2017-09-17 12:02:14,868 - Closing org.springframework.web.context.support.GenericWebApplicationContext@56276db8: startup date [Sun Sep 17 12:00:18 CST 2017]; root of context hierarchy
+2017-09-17 12:02:14,874 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 12:39:54,297 - Starting ProductCategoryServiceImplTest on DESKTOP-RKS0M63 with PID 1240 (started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 12:39:54,298 - No active profile set, falling back to default profiles: default
+2017-09-17 12:39:54,357 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@183ec003: startup date [Sun Sep 17 12:39:54 CST 2017]; root of context hierarchy
+2017-09-17 12:39:55,526 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 12:39:58,693 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 12:39:58,732 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 12:39:58,909 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 12:39:58,912 - HHH000206: hibernate.properties not found
+2017-09-17 12:39:58,915 - HHH000021: Bytecode provider name : javassist
+2017-09-17 12:39:59,036 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 12:39:59,227 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 12:40:00,540 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 12:40:02,402 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@183ec003: startup date [Sun Sep 17 12:39:54 CST 2017]; root of context hierarchy
+2017-09-17 12:40:02,580 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 12:40:02,582 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 12:40:02,642 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 12:40:02,643 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 12:40:02,719 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 12:40:03,225 - Started ProductCategoryServiceImplTest in 10.311 seconds (JVM running for 11.882)
+2017-09-17 12:40:03,453 - Closing org.springframework.web.context.support.GenericWebApplicationContext@183ec003: startup date [Sun Sep 17 12:39:54 CST 2017]; root of context hierarchy
+2017-09-17 12:40:03,469 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 12:40:50,662 - Starting ProductCategoryServiceImplTest on DESKTOP-RKS0M63 with PID 6916 (started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 12:40:50,663 - No active profile set, falling back to default profiles: default
+2017-09-17 12:40:50,756 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7c37508a: startup date [Sun Sep 17 12:40:50 CST 2017]; root of context hierarchy
+2017-09-17 12:40:51,874 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 12:40:54,566 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 12:40:54,600 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 12:40:54,757 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 12:40:54,759 - HHH000206: hibernate.properties not found
+2017-09-17 12:40:54,762 - HHH000021: Bytecode provider name : javassist
+2017-09-17 12:40:54,834 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 12:40:55,027 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 12:40:56,055 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 12:40:57,581 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7c37508a: startup date [Sun Sep 17 12:40:50 CST 2017]; root of context hierarchy
+2017-09-17 12:40:57,830 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 12:40:57,832 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 12:40:57,935 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 12:40:57,936 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 12:40:58,053 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 12:40:58,528 - Started ProductCategoryServiceImplTest in 9.239 seconds (JVM running for 10.716)
+2017-09-17 12:40:58,686 - Closing org.springframework.web.context.support.GenericWebApplicationContext@7c37508a: startup date [Sun Sep 17 12:40:50 CST 2017]; root of context hierarchy
+2017-09-17 12:40:58,691 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 12:48:36,626 - Starting ProductCategoryServiceImplTest on DESKTOP-RKS0M63 with PID 13552 (started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 12:48:36,628 - No active profile set, falling back to default profiles: default
+2017-09-17 12:48:36,748 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@14028087: startup date [Sun Sep 17 12:48:36 CST 2017]; root of context hierarchy
+2017-09-17 12:48:37,804 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 12:48:40,300 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 12:48:40,323 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 12:48:40,439 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 12:48:40,441 - HHH000206: hibernate.properties not found
+2017-09-17 12:48:40,442 - HHH000021: Bytecode provider name : javassist
+2017-09-17 12:48:40,499 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 12:48:40,641 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 12:48:41,573 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 12:48:42,940 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@14028087: startup date [Sun Sep 17 12:48:36 CST 2017]; root of context hierarchy
+2017-09-17 12:48:43,102 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 12:48:43,112 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 12:48:43,211 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 12:48:43,211 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 12:48:43,312 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 12:48:44,044 - Started ProductCategoryServiceImplTest in 8.794 seconds (JVM running for 10.227)
+2017-09-17 12:48:44,172 - HHH000397: Using ASTQueryTranslatorFactory
+2017-09-17 12:48:44,585 - Closing org.springframework.web.context.support.GenericWebApplicationContext@14028087: startup date [Sun Sep 17 12:48:36 CST 2017]; root of context hierarchy
+2017-09-17 12:48:44,590 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 14:20:04,453 - Starting ProductCategoryServiceImplTest on DESKTOP-RKS0M63 with PID 532 (started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 14:20:04,459 - No active profile set, falling back to default profiles: default
+2017-09-17 14:20:04,540 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@14028087: startup date [Sun Sep 17 14:20:04 CST 2017]; root of context hierarchy
+2017-09-17 14:20:05,718 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 14:20:08,617 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 14:20:08,654 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 14:20:08,782 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 14:20:08,785 - HHH000206: hibernate.properties not found
+2017-09-17 14:20:08,788 - HHH000021: Bytecode provider name : javassist
+2017-09-17 14:20:08,869 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 14:20:09,059 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 14:20:10,179 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 14:20:11,807 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@14028087: startup date [Sun Sep 17 14:20:04 CST 2017]; root of context hierarchy
+2017-09-17 14:20:11,988 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.lj.vo.ResultVO com.lj.controller.BuyerProductController.list()
+2017-09-17 14:20:11,992 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 14:20:11,994 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 14:20:12,052 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 14:20:12,052 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 14:20:12,130 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 14:20:12,604 - Started ProductCategoryServiceImplTest in 9.596 seconds (JVM running for 11.087)
+2017-09-17 14:20:12,712 - HHH000397: Using ASTQueryTranslatorFactory
+2017-09-17 14:20:13,082 - SQL Error: 1062, SQLState: 23000
+2017-09-17 14:20:13,082 - Duplicate entry '10' for key 'uqe_category_type'
+2017-09-17 14:20:13,220 - Closing org.springframework.web.context.support.GenericWebApplicationContext@14028087: startup date [Sun Sep 17 14:20:04 CST 2017]; root of context hierarchy
+2017-09-17 14:20:13,227 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 14:20:51,027 - Starting CellApplication on DESKTOP-RKS0M63 with PID 12140 (F:\learnProjects\study\cell\target\classes started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 14:20:51,031 - No active profile set, falling back to default profiles: default
+2017-09-17 14:20:51,093 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@441772e: startup date [Sun Sep 17 14:20:51 CST 2017]; root of context hierarchy
+2017-09-17 14:20:51,365 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 14:20:52,966 - Tomcat initialized with port(s): 9396 (http)
+2017-09-17 14:20:52,982 - Starting service [Tomcat]
+2017-09-17 14:20:52,983 - Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-09-17 14:20:53,158 - Initializing Spring embedded WebApplicationContext
+2017-09-17 14:20:53,158 - Root WebApplicationContext: initialization completed in 2066 ms
+2017-09-17 14:20:53,348 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-17 14:20:53,353 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-17 14:20:53,353 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-17 14:20:53,353 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-17 14:20:53,353 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-17 14:20:53,904 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 14:20:53,918 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 14:20:54,003 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 14:20:54,005 - HHH000206: hibernate.properties not found
+2017-09-17 14:20:54,006 - HHH000021: Bytecode provider name : javassist
+2017-09-17 14:20:54,047 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 14:20:54,163 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 14:20:54,869 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 14:20:55,381 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@441772e: startup date [Sun Sep 17 14:20:51 CST 2017]; root of context hierarchy
+2017-09-17 14:20:55,437 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.lj.vo.ResultVO com.lj.controller.BuyerProductController.list()
+2017-09-17 14:20:55,441 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 14:20:55,442 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 14:20:55,468 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 14:20:55,469 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 14:20:55,502 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 14:20:55,741 - Registering beans for JMX exposure on startup
+2017-09-17 14:20:55,763 - Initializing ProtocolHandler ["http-nio-9396"]
+2017-09-17 14:20:55,776 - Starting ProtocolHandler ["http-nio-9396"]
+2017-09-17 14:20:55,789 - Using a shared selector for servlet write/read
+2017-09-17 14:20:55,812 - Tomcat started on port(s): 9396 (http)
+2017-09-17 14:20:55,818 - Started CellApplication in 5.584 seconds (JVM running for 6.903)
+2017-09-17 14:21:41,397 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-17 14:21:41,398 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-17 14:21:41,493 - FrameworkServlet 'dispatcherServlet': initialization completed in 95 ms
+2017-09-17 14:53:39,954 - Starting CellApplication on DESKTOP-RKS0M63 with PID 13188 (F:\learnProjects\study\cell\target\classes started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 14:53:39,958 - No active profile set, falling back to default profiles: default
+2017-09-17 14:53:40,051 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@384ad17b: startup date [Sun Sep 17 14:53:40 CST 2017]; root of context hierarchy
+2017-09-17 14:53:40,252 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 14:53:41,971 - Tomcat initialized with port(s): 9396 (http)
+2017-09-17 14:53:41,987 - Starting service [Tomcat]
+2017-09-17 14:53:41,989 - Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-09-17 14:53:42,085 - Initializing Spring embedded WebApplicationContext
+2017-09-17 14:53:42,085 - Root WebApplicationContext: initialization completed in 2034 ms
+2017-09-17 14:53:42,248 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-17 14:53:42,252 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-17 14:53:42,253 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-17 14:53:42,253 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-17 14:53:42,253 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-17 14:53:42,747 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 14:53:42,760 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 14:53:42,832 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 14:53:42,834 - HHH000206: hibernate.properties not found
+2017-09-17 14:53:42,835 - HHH000021: Bytecode provider name : javassist
+2017-09-17 14:53:42,886 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 14:53:42,981 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 14:53:43,504 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 14:53:44,033 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@384ad17b: startup date [Sun Sep 17 14:53:40 CST 2017]; root of context hierarchy
+2017-09-17 14:53:44,093 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.lj.vo.ResultVO com.lj.controller.BuyerProductController.list()
+2017-09-17 14:53:44,097 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 14:53:44,097 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 14:53:44,121 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 14:53:44,122 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 14:53:44,155 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 14:53:44,386 - Registering beans for JMX exposure on startup
+2017-09-17 14:53:44,406 - Initializing ProtocolHandler ["http-nio-9396"]
+2017-09-17 14:53:44,416 - Starting ProtocolHandler ["http-nio-9396"]
+2017-09-17 14:53:44,428 - Using a shared selector for servlet write/read
+2017-09-17 14:53:44,446 - Tomcat started on port(s): 9396 (http)
+2017-09-17 14:53:44,451 - Started CellApplication in 5.241 seconds (JVM running for 6.307)
+2017-09-17 14:53:51,718 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-17 14:53:51,719 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-17 14:53:51,744 - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2017-09-17 14:53:51,843 - HHH000397: Using ASTQueryTranslatorFactory
+2017-09-17 14:53:52,118 - Servlet.service() for servlet [dispatcherServlet] in context with path [/cell] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Parameter value [0] did not match expected type [java.lang.String (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [0] did not match expected type [java.lang.String (n/a)]] with root cause
+java.lang.IllegalArgumentException: Parameter value [0] did not match expected type [java.lang.String (n/a)]
+	at org.hibernate.jpa.spi.BaseQueryImpl.validateBinding(BaseQueryImpl.java:897)
+	at org.hibernate.jpa.internal.QueryImpl.access$000(QueryImpl.java:61)
+	at org.hibernate.jpa.internal.QueryImpl$ParameterRegistrationImpl.bindValue(QueryImpl.java:235)
+	at org.hibernate.jpa.spi.BaseQueryImpl.setParameter(BaseQueryImpl.java:638)
+	at org.hibernate.jpa.spi.AbstractQueryImpl.setParameter(AbstractQueryImpl.java:163)
+	at org.hibernate.jpa.criteria.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:150)
+	at org.hibernate.jpa.criteria.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:30)
+	at org.springframework.data.jpa.repository.query.CriteriaQueryParameterBinder.bind(CriteriaQueryParameterBinder.java:75)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bind(ParameterBinder.java:101)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bindAndPrepare(ParameterBinder.java:161)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bindAndPrepare(ParameterBinder.java:152)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.invokeBinding(PartTreeJpaQuery.java:229)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.createQuery(PartTreeJpaQuery.java:150)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.doCreateQuery(PartTreeJpaQuery.java:79)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.createQuery(AbstractJpaQuery.java:190)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:121)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:85)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:116)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:106)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:483)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:461)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy78.findByProductStatus(Unknown Source)
+	at com.lj.service.impl.ProductInfoServiceImpl.findUpAll(ProductInfoServiceImpl.java:27)
+	at com.lj.controller.BuyerProductController.list(BuyerProductController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-17 14:56:15,660 - Starting CellApplication on DESKTOP-RKS0M63 with PID 11888 (F:\learnProjects\study\cell\target\classes started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 14:56:15,699 - No active profile set, falling back to default profiles: default
+2017-09-17 14:56:15,806 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@384ad17b: startup date [Sun Sep 17 14:56:15 CST 2017]; root of context hierarchy
+2017-09-17 14:56:16,055 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 14:56:17,642 - Tomcat initialized with port(s): 9396 (http)
+2017-09-17 14:56:17,654 - Starting service [Tomcat]
+2017-09-17 14:56:17,655 - Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-09-17 14:56:17,753 - Initializing Spring embedded WebApplicationContext
+2017-09-17 14:56:17,753 - Root WebApplicationContext: initialization completed in 1947 ms
+2017-09-17 14:56:17,916 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-17 14:56:17,921 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-17 14:56:17,922 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-17 14:56:17,922 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-17 14:56:17,922 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-17 14:56:18,422 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 14:56:18,435 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 14:56:18,511 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 14:56:18,514 - HHH000206: hibernate.properties not found
+2017-09-17 14:56:18,515 - HHH000021: Bytecode provider name : javassist
+2017-09-17 14:56:18,561 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 14:56:18,817 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 14:56:19,815 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 14:56:20,611 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@384ad17b: startup date [Sun Sep 17 14:56:15 CST 2017]; root of context hierarchy
+2017-09-17 14:56:20,710 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.lj.vo.ResultVO com.lj.controller.BuyerProductController.list()
+2017-09-17 14:56:20,716 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 14:56:20,717 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 14:56:20,760 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 14:56:20,760 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 14:56:20,808 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 14:56:21,103 - Registering beans for JMX exposure on startup
+2017-09-17 14:56:21,122 - Initializing ProtocolHandler ["http-nio-9396"]
+2017-09-17 14:56:21,132 - Starting ProtocolHandler ["http-nio-9396"]
+2017-09-17 14:56:21,147 - Using a shared selector for servlet write/read
+2017-09-17 14:56:21,166 - Tomcat started on port(s): 9396 (http)
+2017-09-17 14:56:21,173 - Started CellApplication in 6.33 seconds (JVM running for 7.395)
+2017-09-17 14:56:32,386 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-17 14:56:32,386 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-17 14:56:32,418 - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2017-09-17 14:56:32,467 - HHH000397: Using ASTQueryTranslatorFactory
+2017-09-17 14:56:32,566 - Servlet.service() for servlet [dispatcherServlet] in context with path [/cell] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Parameter value [0] did not match expected type [java.lang.String (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [0] did not match expected type [java.lang.String (n/a)]] with root cause
+java.lang.IllegalArgumentException: Parameter value [0] did not match expected type [java.lang.String (n/a)]
+	at org.hibernate.jpa.spi.BaseQueryImpl.validateBinding(BaseQueryImpl.java:897)
+	at org.hibernate.jpa.internal.QueryImpl.access$000(QueryImpl.java:61)
+	at org.hibernate.jpa.internal.QueryImpl$ParameterRegistrationImpl.bindValue(QueryImpl.java:235)
+	at org.hibernate.jpa.spi.BaseQueryImpl.setParameter(BaseQueryImpl.java:638)
+	at org.hibernate.jpa.spi.AbstractQueryImpl.setParameter(AbstractQueryImpl.java:163)
+	at org.hibernate.jpa.criteria.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:150)
+	at org.hibernate.jpa.criteria.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:30)
+	at org.springframework.data.jpa.repository.query.CriteriaQueryParameterBinder.bind(CriteriaQueryParameterBinder.java:75)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bind(ParameterBinder.java:101)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bindAndPrepare(ParameterBinder.java:161)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bindAndPrepare(ParameterBinder.java:152)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.invokeBinding(PartTreeJpaQuery.java:229)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.createQuery(PartTreeJpaQuery.java:150)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.doCreateQuery(PartTreeJpaQuery.java:79)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.createQuery(AbstractJpaQuery.java:190)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:121)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:85)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:116)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:106)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:483)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:461)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy78.findByProductStatus(Unknown Source)
+	at com.lj.service.impl.ProductInfoServiceImpl.findUpAll(ProductInfoServiceImpl.java:27)
+	at com.lj.controller.BuyerProductController.list(BuyerProductController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-17 15:00:30,976 - Servlet.service() for servlet [dispatcherServlet] in context with path [/cell] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Parameter value [0] did not match expected type [java.lang.String (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [0] did not match expected type [java.lang.String (n/a)]] with root cause
+java.lang.IllegalArgumentException: Parameter value [0] did not match expected type [java.lang.String (n/a)]
+	at org.hibernate.jpa.spi.BaseQueryImpl.validateBinding(BaseQueryImpl.java:897)
+	at org.hibernate.jpa.internal.QueryImpl.access$000(QueryImpl.java:61)
+	at org.hibernate.jpa.internal.QueryImpl$ParameterRegistrationImpl.bindValue(QueryImpl.java:235)
+	at org.hibernate.jpa.spi.BaseQueryImpl.setParameter(BaseQueryImpl.java:638)
+	at org.hibernate.jpa.spi.AbstractQueryImpl.setParameter(AbstractQueryImpl.java:163)
+	at org.hibernate.jpa.criteria.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:150)
+	at org.hibernate.jpa.criteria.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:30)
+	at org.springframework.data.jpa.repository.query.CriteriaQueryParameterBinder.bind(CriteriaQueryParameterBinder.java:75)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bind(ParameterBinder.java:101)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bindAndPrepare(ParameterBinder.java:161)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bindAndPrepare(ParameterBinder.java:152)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.invokeBinding(PartTreeJpaQuery.java:229)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.createQuery(PartTreeJpaQuery.java:150)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.doCreateQuery(PartTreeJpaQuery.java:79)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.createQuery(AbstractJpaQuery.java:190)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:121)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:85)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:116)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:106)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:483)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:461)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy78.findByProductStatus(Unknown Source)
+	at com.lj.service.impl.ProductInfoServiceImpl.findUpAll(ProductInfoServiceImpl.java:27)
+	at com.lj.controller.BuyerProductController.list(BuyerProductController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-17 15:00:39,785 - Servlet.service() for servlet [dispatcherServlet] in context with path [/cell] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Parameter value [0] did not match expected type [java.lang.String (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [0] did not match expected type [java.lang.String (n/a)]] with root cause
+java.lang.IllegalArgumentException: Parameter value [0] did not match expected type [java.lang.String (n/a)]
+	at org.hibernate.jpa.spi.BaseQueryImpl.validateBinding(BaseQueryImpl.java:897)
+	at org.hibernate.jpa.internal.QueryImpl.access$000(QueryImpl.java:61)
+	at org.hibernate.jpa.internal.QueryImpl$ParameterRegistrationImpl.bindValue(QueryImpl.java:235)
+	at org.hibernate.jpa.spi.BaseQueryImpl.setParameter(BaseQueryImpl.java:638)
+	at org.hibernate.jpa.spi.AbstractQueryImpl.setParameter(AbstractQueryImpl.java:163)
+	at org.hibernate.jpa.criteria.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:150)
+	at org.hibernate.jpa.criteria.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:30)
+	at org.springframework.data.jpa.repository.query.CriteriaQueryParameterBinder.bind(CriteriaQueryParameterBinder.java:75)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bind(ParameterBinder.java:101)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bindAndPrepare(ParameterBinder.java:161)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bindAndPrepare(ParameterBinder.java:152)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.invokeBinding(PartTreeJpaQuery.java:229)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.createQuery(PartTreeJpaQuery.java:150)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.doCreateQuery(PartTreeJpaQuery.java:79)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.createQuery(AbstractJpaQuery.java:190)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:121)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:85)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:116)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:106)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:483)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:461)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy78.findByProductStatus(Unknown Source)
+	at com.lj.service.impl.ProductInfoServiceImpl.findUpAll(ProductInfoServiceImpl.java:27)
+	at com.lj.controller.BuyerProductController.list(BuyerProductController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-17 15:00:48,583 - Starting CellApplication on DESKTOP-RKS0M63 with PID 5968 (F:\learnProjects\study\cell\target\classes started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 15:00:48,590 - No active profile set, falling back to default profiles: default
+2017-09-17 15:00:48,672 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@441772e: startup date [Sun Sep 17 15:00:48 CST 2017]; root of context hierarchy
+2017-09-17 15:00:48,967 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 15:00:50,771 - Tomcat initialized with port(s): 9396 (http)
+2017-09-17 15:00:50,781 - Starting service [Tomcat]
+2017-09-17 15:00:50,782 - Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-09-17 15:00:50,874 - Initializing Spring embedded WebApplicationContext
+2017-09-17 15:00:50,874 - Root WebApplicationContext: initialization completed in 2202 ms
+2017-09-17 15:00:51,010 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-17 15:00:51,015 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-17 15:00:51,016 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-17 15:00:51,017 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-17 15:00:51,017 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-17 15:00:51,517 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 15:00:51,528 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 15:00:51,595 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 15:00:51,596 - HHH000206: hibernate.properties not found
+2017-09-17 15:00:51,598 - HHH000021: Bytecode provider name : javassist
+2017-09-17 15:00:51,634 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 15:00:51,721 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 15:00:52,270 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 15:00:52,794 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@441772e: startup date [Sun Sep 17 15:00:48 CST 2017]; root of context hierarchy
+2017-09-17 15:00:52,858 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.lj.vo.ResultVO com.lj.controller.BuyerProductController.list()
+2017-09-17 15:00:52,862 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 15:00:52,862 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 15:00:52,888 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 15:00:52,888 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 15:00:52,923 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 15:00:53,145 - Registering beans for JMX exposure on startup
+2017-09-17 15:00:53,161 - Initializing ProtocolHandler ["http-nio-9396"]
+2017-09-17 15:00:53,170 - Starting ProtocolHandler ["http-nio-9396"]
+2017-09-17 15:00:53,182 - Using a shared selector for servlet write/read
+2017-09-17 15:00:53,199 - Tomcat started on port(s): 9396 (http)
+2017-09-17 15:00:53,203 - Started CellApplication in 5.171 seconds (JVM running for 6.091)
+2017-09-17 15:01:00,220 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-17 15:01:00,220 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-17 15:01:00,244 - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2017-09-17 15:01:00,289 - HHH000397: Using ASTQueryTranslatorFactory
+2017-09-17 15:01:00,390 - Servlet.service() for servlet [dispatcherServlet] in context with path [/cell] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Parameter value [0] did not match expected type [java.lang.String (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [0] did not match expected type [java.lang.String (n/a)]] with root cause
+java.lang.IllegalArgumentException: Parameter value [0] did not match expected type [java.lang.String (n/a)]
+	at org.hibernate.jpa.spi.BaseQueryImpl.validateBinding(BaseQueryImpl.java:897)
+	at org.hibernate.jpa.internal.QueryImpl.access$000(QueryImpl.java:61)
+	at org.hibernate.jpa.internal.QueryImpl$ParameterRegistrationImpl.bindValue(QueryImpl.java:235)
+	at org.hibernate.jpa.spi.BaseQueryImpl.setParameter(BaseQueryImpl.java:638)
+	at org.hibernate.jpa.spi.AbstractQueryImpl.setParameter(AbstractQueryImpl.java:163)
+	at org.hibernate.jpa.criteria.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:150)
+	at org.hibernate.jpa.criteria.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:30)
+	at org.springframework.data.jpa.repository.query.CriteriaQueryParameterBinder.bind(CriteriaQueryParameterBinder.java:75)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bind(ParameterBinder.java:101)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bindAndPrepare(ParameterBinder.java:161)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bindAndPrepare(ParameterBinder.java:152)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.invokeBinding(PartTreeJpaQuery.java:229)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.createQuery(PartTreeJpaQuery.java:150)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.doCreateQuery(PartTreeJpaQuery.java:79)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.createQuery(AbstractJpaQuery.java:190)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:121)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:85)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:116)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:106)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:483)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:461)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy78.findByProductStatus(Unknown Source)
+	at com.lj.service.impl.ProductInfoServiceImpl.findUpAll(ProductInfoServiceImpl.java:27)
+	at com.lj.controller.BuyerProductController.list(BuyerProductController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-17 15:02:55,600 - Starting CellApplication on DESKTOP-RKS0M63 with PID 10572 (F:\learnProjects\study\cell\target\classes started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 15:02:55,611 - No active profile set, falling back to default profiles: default
+2017-09-17 15:02:55,730 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@441772e: startup date [Sun Sep 17 15:02:55 CST 2017]; root of context hierarchy
+2017-09-17 15:02:55,965 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 15:02:57,597 - Tomcat initialized with port(s): 9396 (http)
+2017-09-17 15:02:57,607 - Starting service [Tomcat]
+2017-09-17 15:02:57,608 - Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-09-17 15:02:57,703 - Initializing Spring embedded WebApplicationContext
+2017-09-17 15:02:57,704 - Root WebApplicationContext: initialization completed in 1973 ms
+2017-09-17 15:02:57,867 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-17 15:02:57,873 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-17 15:02:57,874 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-17 15:02:57,874 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-17 15:02:57,874 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-17 15:02:58,361 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 15:02:58,378 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 15:02:58,535 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 15:02:58,538 - HHH000206: hibernate.properties not found
+2017-09-17 15:02:58,540 - HHH000021: Bytecode provider name : javassist
+2017-09-17 15:02:58,636 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 15:02:58,787 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 15:02:59,351 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 15:02:59,866 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@441772e: startup date [Sun Sep 17 15:02:55 CST 2017]; root of context hierarchy
+2017-09-17 15:02:59,933 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.lj.vo.ResultVO com.lj.controller.BuyerProductController.list()
+2017-09-17 15:02:59,937 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 15:02:59,937 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 15:02:59,963 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 15:02:59,963 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 15:02:59,996 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 15:03:00,257 - Registering beans for JMX exposure on startup
+2017-09-17 15:03:00,276 - Initializing ProtocolHandler ["http-nio-9396"]
+2017-09-17 15:03:00,288 - Starting ProtocolHandler ["http-nio-9396"]
+2017-09-17 15:03:00,301 - Using a shared selector for servlet write/read
+2017-09-17 15:03:00,320 - Tomcat started on port(s): 9396 (http)
+2017-09-17 15:03:00,327 - Started CellApplication in 5.307 seconds (JVM running for 6.219)
+2017-09-17 15:03:23,526 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-17 15:03:23,526 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-17 15:03:23,550 - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2017-09-17 15:03:23,598 - HHH000397: Using ASTQueryTranslatorFactory
+2017-09-17 15:03:23,715 - SQL Error: 1054, SQLState: 42S22
+2017-09-17 15:03:23,715 - Unknown column 'productinf0_.produce_price' in 'field list'
+2017-09-17 15:03:23,735 - Servlet.service() for servlet [dispatcherServlet] in context with path [/cell] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'productinf0_.produce_price' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1966)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114)
+	at com.sun.proxy.$Proxy85.executeQuery(Unknown Source)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:70)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2117)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1900)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1876)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:919)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:336)
+	at org.hibernate.loader.Loader.doList(Loader.java:2617)
+	at org.hibernate.loader.Loader.doList(Loader.java:2600)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2429)
+	at org.hibernate.loader.Loader.list(Loader.java:2424)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:501)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:371)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:216)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1326)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:87)
+	at org.hibernate.jpa.internal.QueryImpl.list(QueryImpl.java:606)
+	at org.hibernate.jpa.internal.QueryImpl.getResultList(QueryImpl.java:483)
+	at org.hibernate.jpa.criteria.compile.CriteriaQueryTypeQueryAdapter.getResultList(CriteriaQueryTypeQueryAdapter.java:50)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:121)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:85)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:116)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:106)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:483)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:461)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy78.findByProductStatus(Unknown Source)
+	at com.lj.service.impl.ProductInfoServiceImpl.findUpAll(ProductInfoServiceImpl.java:27)
+	at com.lj.controller.BuyerProductController.list(BuyerProductController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-17 15:06:47,224 - Starting CellApplication on DESKTOP-RKS0M63 with PID 11020 (F:\learnProjects\study\cell\target\classes started by lenovo in F:\learnProjects\study\cell)
+2017-09-17 15:06:47,227 - No active profile set, falling back to default profiles: default
+2017-09-17 15:06:47,335 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@441772e: startup date [Sun Sep 17 15:06:47 CST 2017]; root of context hierarchy
+2017-09-17 15:06:47,629 - HV000001: Hibernate Validator 5.3.5.Final
+2017-09-17 15:06:49,094 - Tomcat initialized with port(s): 9396 (http)
+2017-09-17 15:06:49,105 - Starting service [Tomcat]
+2017-09-17 15:06:49,107 - Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-09-17 15:06:49,225 - Initializing Spring embedded WebApplicationContext
+2017-09-17 15:06:49,225 - Root WebApplicationContext: initialization completed in 1890 ms
+2017-09-17 15:06:49,431 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-17 15:06:49,436 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-17 15:06:49,437 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-17 15:06:49,438 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-17 15:06:49,438 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-17 15:06:49,935 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-17 15:06:49,947 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-17 15:06:50,016 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-17 15:06:50,017 - HHH000206: hibernate.properties not found
+2017-09-17 15:06:50,019 - HHH000021: Bytecode provider name : javassist
+2017-09-17 15:06:50,066 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-17 15:06:50,154 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-17 15:06:50,633 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-17 15:06:51,149 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@441772e: startup date [Sun Sep 17 15:06:47 CST 2017]; root of context hierarchy
+2017-09-17 15:06:51,209 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.lj.vo.ResultVO com.lj.controller.BuyerProductController.list()
+2017-09-17 15:06:51,213 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-17 15:06:51,213 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-17 15:06:51,275 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 15:06:51,278 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 15:06:51,358 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-17 15:06:51,779 - Registering beans for JMX exposure on startup
+2017-09-17 15:06:51,800 - Initializing ProtocolHandler ["http-nio-9396"]
+2017-09-17 15:06:51,811 - Starting ProtocolHandler ["http-nio-9396"]
+2017-09-17 15:06:51,827 - Using a shared selector for servlet write/read
+2017-09-17 15:06:51,843 - Tomcat started on port(s): 9396 (http)
+2017-09-17 15:06:51,847 - Started CellApplication in 5.33 seconds (JVM running for 6.709)
+2017-09-17 15:07:48,360 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-17 15:07:48,361 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-17 15:07:48,387 - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2017-09-17 15:07:48,437 - HHH000397: Using ASTQueryTranslatorFactory
+2017-09-17 15:07:48,547 - SQL Error: 1054, SQLState: 42S22
+2017-09-17 15:07:48,547 - Unknown column 'productinf0_.produce_price' in 'field list'
+2017-09-17 15:07:48,565 - Servlet.service() for servlet [dispatcherServlet] in context with path [/cell] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'productinf0_.produce_price' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1966)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114)
+	at com.sun.proxy.$Proxy85.executeQuery(Unknown Source)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:70)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2117)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1900)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1876)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:919)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:336)
+	at org.hibernate.loader.Loader.doList(Loader.java:2617)
+	at org.hibernate.loader.Loader.doList(Loader.java:2600)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2429)
+	at org.hibernate.loader.Loader.list(Loader.java:2424)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:501)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:371)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:216)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1326)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:87)
+	at org.hibernate.jpa.internal.QueryImpl.list(QueryImpl.java:606)
+	at org.hibernate.jpa.internal.QueryImpl.getResultList(QueryImpl.java:483)
+	at org.hibernate.jpa.criteria.compile.CriteriaQueryTypeQueryAdapter.getResultList(CriteriaQueryTypeQueryAdapter.java:50)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:121)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:85)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:116)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:106)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:483)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:461)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy78.findByProductStatus(Unknown Source)
+	at com.lj.service.impl.ProductInfoServiceImpl.findUpAll(ProductInfoServiceImpl.java:27)
+	at com.lj.controller.BuyerProductController.list(BuyerProductController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
