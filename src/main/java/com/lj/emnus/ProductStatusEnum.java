@@ -1,4 +1,4 @@
-package com.lj.utils;
+package com.lj.emnus;
 
 import lombok.Getter;
 

@@ -3,7 +3,7 @@ package com.lj.service.impl;
 import com.lj.dao.ProductInfoDao;
 import com.lj.dataobject.ProductInfo;
 import com.lj.service.ProductInfoService;
-import com.lj.utils.ProductStatusEnum;
+import com.lj.emnus.ProductStatusEnum;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

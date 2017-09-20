@@ -8,5 +8,5 @@ import java.util.List;
 public class ResultVO<T> {
     private Integer code;
     private String msg;
-    private List<ProductInfoVO> data;
+    private List<T> data;
 }
