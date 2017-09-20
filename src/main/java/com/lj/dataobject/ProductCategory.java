@@ -27,6 +27,7 @@ public class ProductCategory {
     }
 
     public ProductCategory(String categoryName, Integer categoryType) {
+        super();
         this.categoryName = categoryName;
         this.categoryType = categoryType;
     }

@@ -17,7 +17,7 @@ public class ProductInfo {
 
     private String productName;
 
-    private BigDecimal producePrice;
+    private BigDecimal productPrice;
 
     private Integer productStock;
 
@@ -31,13 +31,12 @@ public class ProductInfo {
     private Integer categoryType;
 
     public ProductInfo() {
-        super();
     }
 
-    public ProductInfo(String productId, String productName, BigDecimal producePrice, Integer productStock, String productDescription, String productIcon, Integer productStatus, Integer categoryType) {
+    public ProductInfo(String productId, String productName, BigDecimal productPrice, Integer productStock, String productDescription, String productIcon, Integer productStatus, Integer categoryType) {
         this.productId = productId;
         this.productName = productName;
-        this.producePrice = producePrice;
+        this.productPrice = productPrice;
         this.productStock = productStock;
         this.productDescription = productDescription;
         this.productIcon = productIcon;
