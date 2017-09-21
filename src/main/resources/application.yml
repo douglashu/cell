@@ -12,6 +12,10 @@ spring:
         hbm2ddl:
           auto: update
 
+#配置了这个就不会返回为NULL的参数
+  jackson:
+    default-property-inclusion: non_null
+
 server:
     context-path: /cell
     port: 9396
