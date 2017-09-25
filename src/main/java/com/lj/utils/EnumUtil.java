@@ -1,7 +1,6 @@
 package com.lj.utils;
 
-import com.lj.emnus.OrderStatusEnum;
-import com.lj.emnus.PayStatusEnum;
+import com.lj.emnus.CodeEnum;
 
 /**
  * Created by Loki
