@@ -1,6 +1,14 @@
 package com.lj.utils;
 
-import com.lj.emnus.CodeEnum;
+import com.lj.emnus.OrderStatusEnum;
+import com.lj.emnus.PayStatusEnum;
+
+/**
+ * Created by Loki
+ * Author:李晋
+ * Create Time:2017/9/21
+ */
+
 
 public class EnumUtil {
     public static <T extends CodeEnum> T getByCode(Integer code, Class<T> enumClass) {
